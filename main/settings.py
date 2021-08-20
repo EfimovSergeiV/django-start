@@ -73,9 +73,9 @@ WSGI_APPLICATION = 'main.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-from main.secret import MYSQL
+from main.secret import SQLITE, MYSQL, POSTGRESQL
 
-DATABASES = MYSQL
+DATABASES = MYSQL # SELECT DATABASE
 
 
 # Password validation

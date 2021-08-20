@@ -9,4 +9,4 @@ venv/
 static/
 
 
-# main/secret.py
+# main/secret.py # UNCOMMENT IF SECRET
