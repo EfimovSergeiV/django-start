@@ -1,0 +1,12 @@
+.git/
+*.pot
+*.py[co]
+.tox/
+db.sqlite3
+
+
+venv/
+static/
+
+
+# main/secret.py
